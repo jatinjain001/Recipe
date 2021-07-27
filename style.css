@@ -12,7 +12,7 @@ body {
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.3);
-  position: fixed;
+  position: sticky;
   z-index: 10;
   width: 100%;
   height: 50px;
@@ -198,6 +198,12 @@ body {
   height: 30px;
   transition: all 0.3s ease-in-out;
 }
+.card{
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+
 
 .tile-btn:hover {
   background-color: rgb(118, 72, 141);
@@ -795,7 +801,13 @@ ul {
     border-radius: 7px;
     margin-right: 11px;
     cursor: pointer
+
 }
+.card-img-top{
+  width: 100%;
+  height: 200px;
+}
+
 
 .social-twitter {
     background-color: #55acee
