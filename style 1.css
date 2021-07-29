@@ -411,13 +411,13 @@ hr {
 /* contact CSS end */
 /* footer css start */
 
-footer {
+/* .footer {
   position: relative;
   width: 100%;
   height: 300px;
-}
+} */
 
-.footer-container {
+/* .footer-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -426,7 +426,7 @@ footer {
 
 .footer-container h3 {
   margin-bottom: 30px;
-}
+} */
 
 .address {
   text-align: center;
@@ -569,7 +569,7 @@ ul {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 5%;
+  height: 7%;
   background-color: #597795;
   color: white;
   text-align: center;
