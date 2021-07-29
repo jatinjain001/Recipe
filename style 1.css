@@ -121,202 +121,6 @@ body {
   visibility: hidden;
 }
 /* Carosel CSS end */
-/* Home Page Contents CSS start */
-
-.container {
-  padding: 200px 500px 200px 100px;
-  z-index: 20;
-}
-
-.container h1 {
-  font-size: 45px;
-  color: rgb(255, 255, 255);
-}
-
-.container p {
-  color: white;
-  font-size: 20px;
-  font-weight: 100;
-}
-
-.container button {
-  width: 120px;
-  height: 40px;
-  margin-left: 20px;
-  border: 0px;
-  border-radius: 4px;
-  background-color: rgb(255, 255, 82);
-  font-size: 12px;
-  text-transform: uppercase;
-  transition: all 0.3s ease-in-out;
-}
-
-.container button:hover {
-  background-color: rgb(76, 14, 126);
-  transform: scale(1.1);
-  color: white;
-}
-/* Home Page Contents CSS end */
-/* first Page CSS start */
-
-.first {
-  position: relative;
-  width: 100%;
-  height: 650px;
-}
-
-.first-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-  margin-left: 350px;
-  margin-right: 350px;
-}
-
-.first-container h1 {
-  font-size: 40px;
-  margin-bottom: 25px;
-  font-weight: 700;
-}
-
-.first-text-details {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.first img {
-  width: 100px;
-  height: 100px;
-}
-
-.first-text-details img {
-  width: 200px;
-  height: 200px;
-}
-
-.first-tiles {
-  display: flex;
-}
-
-.first-tiles .tile-item {
-  width: 200px;
-  height: 300px;
-  margin: 10px 20px;
-  padding: 20px;
-  text-align: center;
-  font-size: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.tile-item .tile-heading {
-  font-size: 18px;
-}
-
-.tile-btn {
-  background-color: rgb(240, 240, 146);
-  border: 1px soid black;
-  border-radius: 3px;
-  width: 80px;
-  height: 30px;
-  transition: all 0.3s ease-in-out;
-}
-.card{
-  margin-top: 10%;
-  margin-left: 2%;
-  border-radius: 16px;
-  margin-bottom: 5%;
-}
-
-
-
-.tile-btn:hover {
-  background-color: rgb(118, 72, 141);
-  border: 0px;
-  color: white;
-}
-/* first Page CSS end */
-
-hr {
-  width: 60%;
-  margin: 0px 20%;
-}
-/* assignments Page CSS start */
-
-.assignments {
-  width: 100%;
-  height: 650px;
-}
-
-.assignments-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 40px 0px;
-}
-
-.project-heading {
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
-
-.assignments-container-tiles {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  text-align: center;
-}
-
-.project-tile-item {
-  width: 250px;
-  height: 475px;
-  margin: 20px;
-  text-align: center;
-  background-color: rgb(185, 184, 185);
-  transition: all 0.3s ease-in-out;
-}
-
-.project-tile-item:hover {
-  background-color: rgb(240, 240, 146);
-  box-shadow: 5px 10px 8px #888888;
-  cursor: pointer;
-}
-
-.project-tile-item:hover button {
-  border: 0;
-  background-color: rgb(118, 72, 141);
-  color: white;
-}
-
-.project-tile-item img {
-  width: 250px;
-  height: 275px;
-}
-
-.project-tile-item h3 {
-  font-size: 20px;
-  margin-top: 20px;
-}
-
-.project-tile-item p {
-  margin: 0px 40px;
-  font-size: 12px;
-}
-
-.project-tile-item button {
-  margin-top: 10px;
-  border: 1px solid black;
-  width: 170px;
-  height: 35px;
-  font-size: 15px;
-  border-radius: 4px;
-  background-color: rgb(240, 240, 146);
-  transition: all 0.3s ease-in-out;
-}
-/* assignments Page CSS end */
 /* Video Project CSS start */
 
 .video-project {
@@ -408,25 +212,7 @@ hr {
   background-color: rgb(118, 72, 141);
   color: white;
 }
-/* contact CSS end */
-/* footer css start */
 
-/* .footer {
-  position: relative;
-  width: 100%;
-  height: 300px;
-} */
-
-/* .footer-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 60px 40px 40px 40px;
-}
-
-.footer-container h3 {
-  margin-bottom: 30px;
-} */
 
 .address {
   text-align: center;
@@ -562,6 +348,27 @@ ul {
   margin-right: 5%;
 }
 
+/* subcategories start */
+
+.gallery {
+  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.gallery__img {
+  flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+.gallery img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+ /* subcategories end */
 
 /* footer start */
 .footer {
