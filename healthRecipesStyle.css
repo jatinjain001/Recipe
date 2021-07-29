@@ -263,9 +263,8 @@
 
   .gallery {
     display: grid;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-gap: 1em;
 }
 
 .gallery__img {
