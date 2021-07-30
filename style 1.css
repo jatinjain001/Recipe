@@ -16,7 +16,7 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
   position: sticky;
   width: 100%;
-  height: 50px;
+  height: 120px;
 }
 
 .navbar2 {
@@ -229,10 +229,15 @@ body {
 }
 .card{
   margin-top: 10%;
-  margin-left: 2%;
+  margin-left: 8%;
   border-radius: 16px;
+  box-shadow: 0px 13px 10px -8px rgba(0, 0, 0, 0.1);
 }
 
+.card:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.09, 1.05);
+}
 
 
 .tile-btn:hover {
@@ -503,6 +508,7 @@ ul {
   margin-top: 14px;
 }
 
+
 .social-number{
   margin-right: 2rem;
   color: #0b0a0a;
@@ -551,12 +557,18 @@ ul {
 
 .rdd{
   border-radius: 0rem 1rem 1rem 0rem;
-}
 
+}
 .scroll {
   padding: 4px;
-  width: 60rem;
+<<<<<<< HEAD
+  width: 77rem;
   height: 700px;
+=======
+  width: 60rem;
+  height: 600px;
+  border: none;
+>>>>>>> 5e32e7750d04ef2f43b2fcb56db0acd18088009f
   overflow-x: hidden;
   overflow-y: scroll;
   text-align:justify;
@@ -565,3 +577,54 @@ ul {
   margin-top: 10%;
   margin-right: 5%;
 }
+<<<<<<< HEAD
+
+
+/* footer start */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6%;
+  background-color: #597795;
+  color: white;
+  text-align: center;
+}
+
+.footer1{
+  color: white;
+}
+
+/* footer end */
+=======
+.list-video{
+  display: block;
+}
+
+@media screen and (max-width:600px) {
+.scroll{
+ 
+  margin-left: 10%;
+  height: 500px;
+  margin-top: 5%;
+  padding: 0;
+}
+}
+
+@media screen and (min-width:600px ) and (max-width:768px) {
+
+  .icons{
+    display: inline;
+  }
+
+  .scroll{
+    margin-left: 5%;
+    height: 500px;
+    width: 30rem;
+    text-align: center;
+    padding: 0;
+  }
+
+}
+>>>>>>> 5e32e7750d04ef2f43b2fcb56db0acd18088009f
