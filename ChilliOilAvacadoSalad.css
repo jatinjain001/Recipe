@@ -261,18 +261,18 @@
 
   /* table  start*/
 
-.wrapper{
-    display: grid;
-    grid-template-columns: 30% 70%;
-    grid-gap: 2em;
-}
-.nested{
-    display:grid;
-    grid-template-columns: repeat(2 ,1fr);
-}
-.wrapper > div{
-    background-color: pink;
-}
+  .part1{
+    margin-top: 10%;
+    margin-left: 8%;
+    border-radius: 16px;
+    box-shadow: 0px 13px 10px -8px rgba(0, 0, 0, 0.1);
+  }
+
+  .part1:hover{
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.09, 1.05);
+  }
+  
 
     /* table  end*/
   /* footer start */
