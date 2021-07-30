@@ -229,10 +229,15 @@ body {
 }
 .card{
   margin-top: 10%;
-  margin-left: 2%;
+  margin-left: 8%;
   border-radius: 16px;
+  box-shadow: 0px 13px 10px -8px rgba(0, 0, 0, 0.1);
 }
 
+.card:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.09, 1.05);
+}
 
 
 .tile-btn:hover {
@@ -503,6 +508,7 @@ ul {
   margin-top: 14px;
 }
 
+
 .social-number{
   margin-right: 5rem;
   color: #0b0a0a;
@@ -555,7 +561,7 @@ ul {
 
 .scroll {
   padding: 4px;
-  width: 60rem;
+  width: 77rem;
   height: 700px;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -565,3 +571,22 @@ ul {
   margin-top: 10%;
   margin-right: 5%;
 }
+
+
+/* footer start */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6%;
+  background-color: #597795;
+  color: white;
+  text-align: center;
+}
+
+.footer1{
+  color: white;
+}
+
+/* footer end */
