@@ -551,12 +551,13 @@ ul {
 
 .rdd{
   border-radius: 0rem 1rem 1rem 0rem;
-}
 
+}
 .scroll {
   padding: 4px;
   width: 60rem;
   height: 600px;
+  border: none;
   overflow-x: hidden;
   overflow-y: scroll;
   text-align:justify;
@@ -579,11 +580,17 @@ ul {
 }
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:600px ) and (max-width:768px) {
+
+  .icons{
+    display: inline;
+  }
 
   .scroll{
     margin-left: 5%;
     height: 500px;
+    width: 30rem;
+    text-align: center;
     padding: 0;
   }
 
