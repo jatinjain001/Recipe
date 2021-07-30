@@ -565,14 +565,13 @@ ul {
   margin-top: 10%;
   margin-right: 5%;
 }
+.list-video{
+  display: block;
+}
 
 @media screen and (max-width:600px) {
-
-.list-video{
-  display: none;
-}
 .scroll{
-  width: auto;
+ 
   margin-left: 10%;
   height: 500px;
   margin-top: 5%;
@@ -583,9 +582,9 @@ ul {
 @media screen and (min-width:600px) {
 
   .scroll{
-    width: auto;
     margin-left: 5%;
     height: 500px;
     padding: 0;
   }
+
 }
