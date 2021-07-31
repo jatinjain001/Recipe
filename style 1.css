@@ -239,6 +239,13 @@ body {
   transform: scale(1.09, 1.05);
 }
 
+.card-text{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
 
 .tile-btn:hover {
   background-color: rgb(118, 72, 141);
