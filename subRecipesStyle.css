@@ -260,7 +260,15 @@
   }
   
   /* subcategories start */
+  .hStyle{
+    font-family: 'Bebas Neue', cursive;
+    size: 78px;
+    font-weight: bold;
+  }
 
+  .fstyle{
+    line-height: 2rem;
+  }
   .gallery {
     display: grid;
     grid-template-columns: 22% 22% 22% 22%;
