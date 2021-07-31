@@ -508,7 +508,12 @@ ul {
   margin-top: 14px;
 }
 
-
+.card-text{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
 .social-number{
   margin-right: 5rem;
   color: #0b0a0a;
