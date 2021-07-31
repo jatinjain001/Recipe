@@ -268,7 +268,10 @@
     width: 28.5%;
   }
 
-
+.printsy{
+  float: right;
+  margin-left: 2rem;
+}
     /* table  end*/
   /* footer start */
   .footer {
