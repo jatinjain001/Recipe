@@ -560,10 +560,19 @@ ul {
   border-radius: 0rem 1rem 1rem 0rem;
 }
 
+/* navbar ended */
+
+
+/* card start */
+.hStyle{
+  font-family: 'Bebas Neue', cursive;
+  size: 64px;
+  font-weight: bold;
+}
 .scroll {
   padding: 4px;
   width: 77rem;
-  height: 700px;
+  height: 800px;
   overflow-x: hidden;
   overflow-y: scroll;
   text-align:justify;
@@ -584,11 +593,27 @@ ul {
 
 .headstyle{
   text-align: center;
+  
+}
+
+.headstyle h3{
   font-weight: bold;
 }
+
+.headstyle p{
+  font-family: 'Inconsolata', monospace;
+  text-align: left;
+}
+
+/* card ended */
+
+
 .video{
   margin-top: 10%;
   margin-right: 5%;
+  width: 450px;
+  height: 200px;
+  border-radius: 1rem;
 }
 
 
