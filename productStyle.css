@@ -321,4 +321,38 @@
     color: white;
   }
   
+  body :lang(it){
+     font-size: large;
+  }
   /* footer end */  
+
+  @media only print{
+     .navbar img {
+      display: none;
+    }
+    .navbar-nav li{
+      display: none;
+    }
+
+    .part1{
+      width: 100%;
+      box-shadow: none;
+      border-radius: 0px 0px;
+      justify-content: center;
+      display: block;
+      margin-left: 5px;
+    }
+    .part2{
+      margin-left: 10px;
+      width: 100%;
+      justify-content: center;
+    }
+     
+   .footer{
+      display: none;  
+   }
+  .btn-lg{
+   display: none;
+  }
+
+  }
